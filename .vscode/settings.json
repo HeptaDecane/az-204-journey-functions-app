@@ -1,0 +1,18 @@
+{
+    "azureFunctions.deploySubpath": ".",
+    "azureFunctions.postDeployTask": "npm install (functions)",
+    "azureFunctions.projectLanguage": "JavaScript",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.projectLanguageModel": 4,
+    "azureFunctions.preDeployTask": "npm prune (functions)",
+    "rest-client.environmentVariables": {
+        "$shared": {},
+        "local": {
+            "host": "http://localhost:7071"
+        },
+        "production": {
+            "host": "https://az-204-journey-functions-app.azurewebsites.net"
+        }
+    }
+}
