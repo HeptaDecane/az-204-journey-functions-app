@@ -31,3 +31,19 @@ Content-Type: application/json
     ]
 }
 ###
+
+GET {{host}}/api/bookmarks
+###
+
+
+GET {{host}}/api/bookmarks/docs
+###
+
+POST {{host}}/api/bookmarks
+Content-Type: application/json
+
+{
+    "id": "azure",
+    "url": "https://azure.microsoft.com"
+}
+###

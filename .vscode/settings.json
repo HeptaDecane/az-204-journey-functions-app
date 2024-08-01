@@ -9,7 +9,7 @@
     "rest-client.environmentVariables": {
         "$shared": {},
         "local": {
-            "host": "http://localhost:7071"
+            "host": "http://localhost:8000"
         },
         "production": {
             "host": "https://az-204-journey-functions-app.azurewebsites.net"
